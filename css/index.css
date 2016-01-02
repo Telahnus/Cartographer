@@ -2,12 +2,30 @@
 	file: index.css;
 	author: telahnus;
 	desc: css for main page;
-*/      
-      html, body {
-        height: 100%;
-        margin: 0;
-        padding: 0;
-      }
-      #map {
-        height: 100%;
-      }
+*/  
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#image-map {
+  width: 100%;
+  height: calc(100% - 100px);
+  border: 1px solid #ccc;
+  /*margin-bottom: 10px;*/
+}
+
+#top-div {
+  height: 100px;
+  width: 100%;
+}
+
+button {
+    vertical-align: top;
+}
+
+#cctitle {
+  font-size: 1em;
+  font-family: 'Qwigley', cursive;
+}

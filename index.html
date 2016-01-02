@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Campaign Cartographer</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="leaflet/leaflet.css"></script>
+  <link rel="stylesheet" href="css/index.css" />
+  <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js'></script>
+  <script src='https://cdn.firebase.com/js/client/2.2.1/firebase.js'></script>
+
+</head>
+
+<body>
+  <div id="top-div">
+    <div id="log-fields">
+    <input type='text' id='emailInput' placeholder='Email'>
+    <input type='text' id='passInput' placeholder='Password'>
+    <br>
+    </div>
+    <button type="button" id="regBtn">Register</button>
+    <button type="button" id="logBtn">Login</button>
+    <button type="button" id="createBtn">Create Map</button>
+    <button type="button" id="editBtn">Edit Map</button>
+    <button type="button" id="logoutBtn">Logout</button>
+    <button type="button" id="saveMarkerBtn">Save Markers</button>
+
+    <span id="msg">
+      
+    </span>
+  </div>
+  <div id="image-map"></div>
+</body>
+
+<script src="leaflet/leaflet.js"></script>
+<!-- <script src="js/index.js"></script> -->
+   <script src='js/login.js'></script> 
+</html>

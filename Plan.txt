@@ -1,0 +1,47 @@
+Cartographer Plan
+
+idea: upload image, add markers, let others view
+
+minimum: login, upload image, add markers, viewable url
+
+index / home page
+	login
+	forgot password
+	about
+	register
+login
+	username, password, email
+	save in DB
+		make sure to test/secure
+		which DB?
+splash (after login)
+	list of maps
+	upload new map base
+		ground overlay on map
+		where to save?
+		generates custom url for viewing
+map edit
+	zoom/pan
+		gmap built in functionality
+	create/edit markers
+		save data to sql?
+	layers
+	draw functions? (lines, squares, etc)
+		may be built in gmap
+map view
+	toggle layers
+	zoom/pan
+	view markers
+
+using pop.co as domain
+	campaign-cartographer.co
+google cloud platform?
+firebase DB?
+mongo DB?
+
+maaaay be using leaflet instead?
+	http://kempe.net/blog/2014/06/14/leaflet-pan-zoom-image.html
+
+	viewreset 	Event 	Fired when the map needs to redraw its content (this usually happens on map zoom or load). Very useful for creating custom overlays.
+
+fuck nosql db's, no firebase, no mongo, just mysql, php, js, html and css
